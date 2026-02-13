@@ -1,0 +1,7 @@
+.header{
+    font-size: 30px;
+    background-color: red;
+}
+.header h1:hover{
+    font-size: 40px;
+}
