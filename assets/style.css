@@ -1,7 +1,112 @@
-.header{
-    font-size: 30px;
-    background-color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.header h1:hover{
-    font-size: 40px;
+
+body {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    padding: 40px 0;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Card style */
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Header */
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+    color: #1e3c72;
+}
+
+.subtitle {
+    margin-top: 10px;
+    color: #666;
+}
+
+/* Section titles */
+h2 {
+    margin-bottom: 15px;
+    color: #2a5298;
+    border-bottom: 2px solid #2a5298;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* About text */
+section p {
+    line-height: 1.7;
+    color: #444;
+}
+
+/* Skills */
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-list span {
+    background: #2a5298;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.skill-list span:hover {
+    background: #1e3c72;
+    transform: scale(1.05);
+}
+
+/* Buttons */
+.links {
+    text-align: center;
+}
+
+.btn {
+    text-decoration: none;
+    background: #2a5298;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin: 5px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #1e3c72;
+}
+
+.btn.secondary {
+    background: #555;
+}
+
+.footer {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
 }
